@@ -6,7 +6,7 @@ metadata description = 'ALZ Bicep Module to set up Management Group structure'
 @sys.description('Prefix for the management group hierarchy. This management group will be created as part of the deployment. Default: alz')
 @minLength(2)
 @maxLength(10)
-param parTopLevelManagementGroupPrefix string = 'alz'
+param parTopLevelManagementGroupPrefix string = 'alz-Sncon'
 
 @sys.description('Display name for top level management group. This name will be applied to the management group prefix defined in parTopLevelManagementGroupPrefix parameter. Default: Azure Landing Zones')
 @minLength(2)
