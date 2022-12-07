@@ -3,9 +3,9 @@ name: ALZ GitHub Actions deployment pipeline
 on: [workflow_dispatch]
 
 env:
-  ManagementGroupPrefix: "alz"
-  TopLevelManagementGroupDisplayName: "Azure Landing Zones"
-  Location: "eastus"
+  ManagementGroupPrefix: "alz-Sncon"
+  TopLevelManagementGroupDisplayName: "Azure Landing Zones - SNCON"
+  Location: "westeurope"
   LoggingSubId: "xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx"
   LoggingResourceGroupName: "alz-logging"
   HubNetworkSubId: "xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx"
