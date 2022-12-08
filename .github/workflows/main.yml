@@ -59,6 +59,7 @@ jobs:
            deploymentName: create_rbac_roles-${{ env.runNumber }}
            failOnStdErr: false
 
+      # eee
       # - name: Deploy Logging Resource Group
       #   id: create_logging_rg
       #   uses: azure/arm-deploy@v1
