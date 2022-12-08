@@ -81,3 +81,15 @@ jobs:
           parameters: infra-as-code/bicep/modules/logging/parameters/logging.parameters.all.json
           deploymentName: create_logging-${{ env.runNumber }}
           failOnStdErr: false
+
+      - name: Deploy Hub Networking Resource Group
+        id: create_hub_network_rg
+        uses: azure/arm-deploy@v1
+        with:
+          scope: subscription
+          subscriptionId: ${{ env.HubNetworkSubId }}
+          region: ${{ env.Location }}
+          template: infra-as-code/bicep/modules/resourceGroup/resourceGroup.bicep
+          parameters: parResourceGroupName=${{ env.HubNetworkResourceGroupName }} parLocation=${{ env.Location }}
+          deploymentName: create_hub_network_rg-${{ env.runNumber }}
+          failOnStdErr: false
