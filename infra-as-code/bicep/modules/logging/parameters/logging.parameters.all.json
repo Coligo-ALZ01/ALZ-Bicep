@@ -6,7 +6,7 @@
       "value": "alz-log-analytics"
     },
     "parLogAnalyticsWorkspaceLocation": {
-      "value": "westerneurope"
+      "value": "westeurope"
     },
     "parLogAnalyticsWorkspaceSkuName": {
       "value": "PerGB2018"
@@ -34,7 +34,7 @@
       "value": "alz-automation-account"
     },
     "parAutomationAccountLocation": {
-      "value": "westerneurope"
+      "value": "westeurope"
     },
     "parTags": {
       "value": {
