@@ -6,12 +6,12 @@ env:
   ManagementGroupPrefix: "alz-Sncon"
   TopLevelManagementGroupDisplayName: "Azure Landing Zones - SNCON"
   Location: "westeurope"
-  LoggingSubId: "xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx"
+  LoggingSubId: "43e92514-dbec-4a0a-b3bc-1e7e358c6779"
   LoggingResourceGroupName: "alz-logging"
-  HubNetworkSubId: "xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx"
+  HubNetworkSubId: "43e92514-dbec-4a0a-b3bc-1e7e358c6779"
   HubNetworkResourceGroupName: "Hub_Networking_POC"
   RoleAssignmentManagementGroupId: "alz-platform"
-  SpokeNetworkSubId: "xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx"
+  SpokeNetworkSubId: "43e92514-dbec-4a0a-b3bc-1e7e358c6779"
   SpokeNetworkResourceGroupName: "Spoke_Networking_POC"
   runNumber: ${{ github.run_number }}
 
